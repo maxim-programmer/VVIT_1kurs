@@ -1,0 +1,5 @@
+123
+example
+txt
+stroka
+python
