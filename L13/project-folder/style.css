@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    color: #4A3F35;
+    background-color: #FFF5EB;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4A3F35;
+    transition: color 0.3s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #FFE4C4;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu-link {
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: #D2691E;
+}
+
+.headline {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 34px;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.headline-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #FFE4C4;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about, 
+.projects, 
+.skills {
+    padding: 40px 0;
+    border-bottom: 1px solid #FFE4C4;
+}
+
+.about-title, 
+.projects-title, 
+.skills-title {
+    color: #A0522D;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.project-title {
+    color: #8B4513;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.project-btn {
+    display: inline-block;
+    background: #D2691E;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #e48c4d;
+}
+
+.hard-list, 
+.soft-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hard-item, 
+.soft-item {
+    background: #FFE4C4;
+    padding: 8px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background 0.3ms ease;
+}
+
+.hard-item:hover, 
+.soft-item:hover {
+    background: #FFD7B5;
+}
+
+.footer {
+    background: #FFE4C4;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-link {
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #D2691E;
+}
